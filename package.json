@@ -1,0 +1,32 @@
+{
+  "name": "note_taker",
+  "version": "1.0.0",
+  "description": "express js based application to add and save notes to local storage",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klucas72/homework-week-11.git"
+  },
+  "keywords": [
+    "note_taker",
+    "javascript",
+    "node",
+    "express"
+  ],
+  "author": "Kristopher Lucas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/klucas72/homework-week-11/issues"
+  },
+  "homepage": "https://github.com/klucas72/homework-week-11#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "*",
+    "util": "^0.12.3",
+    "uuid": "^8.3.2"
+  }
+}
